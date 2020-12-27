@@ -1,7 +1,8 @@
 # About project
 Hi, this project was making in Microsoft Power BI. On my desktop. It's my work. 
+(fast GIF?)
 
-## what questions does it answer?
+## What questions does it answer?
   // what is total cos </br>
   // what are </br>
   // itp </br>
