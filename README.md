@@ -10,4 +10,4 @@ I want to learn
 # Portfolio
 
 
-<img src="first_time/mapa_bi" alt="hi" class="inline"/>
+<img src="first_time/mapa_bi.gif" alt="hi" class="inline"/>
