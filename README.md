@@ -1,5 +1,5 @@
 # About project
-Hi, this project was making in Microsoft Power BI. On my desktop. It's my work. 
+Hi, this project was making in Microsoft Power BI. On my desktop. It's my work. </br>
 (fast GIF?)
 
 ## What questions does it answer?
