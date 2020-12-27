@@ -9,5 +9,4 @@ I want to learn
 
 # Portfolio
 
-
-<img src="first_time/mapa_bi.gif" alt="hi" class="inline"/>
+![](mapa_bi.gif)
