@@ -1,6 +1,6 @@
 # About project
 Hi, this project was making in Microsoft Power BI. On my desktop. It's my work. </br>
-(fast GIF?)
+(fast GIF?)trtrtreere
 
 ## What questions does it answer?
   // what is total cos </br>
