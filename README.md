@@ -64,7 +64,7 @@ Adding a chart with best-selling book authors.
 
 ![](gifs_groups/grupa_4.gif)
 
-5. Final visualization
+## 5. Final visualization
 Graphic design - arrangement of elements and selection of colors.
 
 ![](gifs_groups/grupa_5.gif)
