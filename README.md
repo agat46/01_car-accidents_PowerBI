@@ -17,7 +17,7 @@ Import Transactions in Excel format (6 files with data from 6 months of 2019). L
 
 Regions excel file added. Data transformation - change of headers. An additional 3 data tables have been added.
 
-</br>
 ![](gifs_groups/grupa_2.gif)
-</br>
+
+## 3. Add relations
 
