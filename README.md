@@ -30,17 +30,16 @@ Create relationships between tables. The data model has been created.
 Writing a measure Values of sales using the DAX language using function SUMX. Change the display of the format of a measure.
 ```
 Value of sales =
-SUMX(
-   	 transakcje,
-  	  transakcje[Ilość]*RELATED(Produkty[Cena])*(1-transakcje[Rabat])
-)
+   SUMX (
+   transakcje,
+   transakcje[Ilość]*RELATED(Produkty[Cena])*(1-transakcje[Rabat])
+   )
 ```
 
 Calculation of the number of all transactions in the first half of 2019 - creating a new measure.
 ```
 Number of transactions =
 COUNTROWS(transakcje)
-
 ```
 
 Calculation of the number of sales days (counting unique results in the Date column).
@@ -49,3 +48,23 @@ Number of sales days =
 DISTINCTCOUNT(transakcje[Data])
 ```
 
+Creating a monthly statement. Adding a new column specifying Month - Year in the Transactions table. Converting a date to text with the FORMAT function. This column used to filter the results in the main visualization as a slicer.
+```
+Month - year = 
+   FORMAT (
+     transakcje[Data], 
+     "\MM - YYYY"
+   )
+```
+
+Filtering data by province. Creating a map that is a filter using a choropleth map.
+Display of data for individual regions. Table and tree map.
+Display of sales for individual sellers. Average sales value added.
+Adding a chart with best-selling book authors.
+
+![](gifs_groups/grupa_4.gif)
+
+5. Final visualization
+Graphic design - arrangement of elements and selection of colors.
+
+![](gifs_groups/grupa_5.gif)
