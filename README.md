@@ -7,4 +7,4 @@ This is an example of an analytical report for a six-month bookstore sale. It wa
 # Workflow </br>
 ## 1. Import and merge data </br>
 Import Transactions in Excel format (6 files with data from 6 months of 2019). Link, Clean, and Transform with PowerQuery. Filtering duplicates. Import to PowerBI.
-![](gifs_groups\grupa_1.gif)
+![](gifs_groups/grupa_1.gif)
