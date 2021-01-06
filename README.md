@@ -21,3 +21,34 @@ Regions excel file added. Data transformation - change of headers. An additional
 
 ## 3. Add relations
 
+Create relationships between tables. The data model has been created.
+
+![](gifs_groups/grupa_3.gif)
+
+## 4. Add measures
+
+Writing a measure Values of sales using the DAX language using function SUMX.
+```
+Value of sales =
+SUMX(
+   	 transakcje,
+  	  transakcje[Ilość]*RELATED(Produkty[Cena])*(1-transakcje[Rabat])
+)
+```
+Change the display of the format of a measure. Visualization of the measure with a card.
+</br>
+Calculation of the number of all transactions in the first half of 2019 - creating a new measure.
+```
+Number of transactions =
+COUNTROWS(transakcje)
+
+```
+Visualization of the measure with a card.
+</br>
+Calculation of the number of sales days (counting unique results in the Date column).
+```
+Number of sales days = 
+DISTINCTCOUNT(transakcje[Data])
+```
+Visualization of the measure with a card.
+</br>
